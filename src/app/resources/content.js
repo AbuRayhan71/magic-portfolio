@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "MD ABU",
+  lastName: "Rayhan",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Austrlia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -17,7 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
+      I occasionally write about  tech news, and share thoughts on the intersection of
       creativity and engineering.
     </>
   ),
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/AbuRayhan71",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/md-abu-rayhan-854b3b1a9/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "cont.rayhan@gmail.com",
   },
 ];
 
@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Rayhan, a Software engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
