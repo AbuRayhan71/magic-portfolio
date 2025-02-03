@@ -7,7 +7,8 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Software Engineer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/gallery/Avatar.jpeg",
+
   location: "Australia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -55,8 +56,8 @@ const home = {
   headline: <>Software Engineer and Builder</>,
   subline: (
     <>
-      I'm Rayhan, a Software engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Rayhan, a Software engineer and a master's Student at <InlineCode>UNSW</InlineCode>, Sydney
+      <br /> I love building things and solving problems.
     </>
   ),
 };
@@ -81,9 +82,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I'm Rayhan, a Master's of Data Science student at UNSW and a Software Engineer based in Melbourne, 
+        with a strong focus on AI and Machine Learning.
       </>
     ),
   },
