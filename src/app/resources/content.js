@@ -1,14 +1,14 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "MD ABU",
+  firstName: "MD Abu",
   lastName: "Rayhan",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Austrlia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Australia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Software Engineer and Builder</>,
   subline: (
     <>
       I'm Rayhan, a Software engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
