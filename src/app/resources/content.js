@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Software Engineer",
-  avatar: "/images/gallery/img-01.jpg", // 1:1 aspect ratio
+  avatar: "/images/gallery/Avatar.jpeg", // 1:1 aspect ratio
 
   location: "Australia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -50,16 +50,7 @@ const social = [
 ];
 
 const home = {
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Software Engineer and Builder</>,
-  subline: (
-    <>
-      I'm Rayhan, a Software engineer and a master's Student at <InlineCode>UNSW</InlineCode>, Sydney
-      <br /> I love building things and solving problems.
-    </>
-  ),
+  
 };
 
 const about = {
@@ -75,7 +66,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/aburayhanisar71/30min",
   },
   intro: {
     display: true,
@@ -92,9 +83,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Headstarter",
+        timeframe: "Dec 2024- Present",
+        role: "Software Engineer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -116,7 +107,7 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
+        company: "ECAL",
         timeframe: "2018 - 2022",
         role: "Lead Designer",
         achievements: [
@@ -138,12 +129,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of New South Wales",
+        description: <>Masters of Data Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Swinburne University of Technology",
+        description: <>Bachelors of Computer Science</>,
       },
     ],
   },
@@ -152,8 +143,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Web Development",
+        description: <> </>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -196,90 +187,90 @@ const blog = {
 };
 
 const work = {
-  label: "Work",
+  label: "Projects",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery = {
-  label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
-  images: [
-    {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-  ],
-};
+// const gallery = {
+//   label: "Awards & Prizes",
+//   title: "My photo gallery",
+//   description: `A photo collection by ${person.name}`,
+//   // Images from https://pexels.com
+//   images: [
+//     {
+//       src: "/images/gallery/img-01.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-02.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-03.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-04.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-05.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-06.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-07.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-08.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-09.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-10.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-11.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/img-12.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-13.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/img-14.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//   ],
+// };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, about, blog, work};
