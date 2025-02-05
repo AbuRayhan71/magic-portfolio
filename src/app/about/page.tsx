@@ -262,7 +262,7 @@ export default function About() {
                               src={image.src}
                             />
                           </Flex>
-                        ))}
+                        ))} give me a call call call number illegal
                       </Flex>
                     )}
                   </Column>
