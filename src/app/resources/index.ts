@@ -16,5 +16,5 @@ export {
   about,
   blog,
   work,
-  gallery,
+  
 } from "@/app/resources/content";
