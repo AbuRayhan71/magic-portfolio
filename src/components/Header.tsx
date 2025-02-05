@@ -7,7 +7,7 @@ import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery } from "@/app/resources/content";
+import { person, about} from "@/app/resources/content";
 
 type TimeDisplayProps = {
   timeZone: string;
@@ -94,13 +94,7 @@ export const Header = () => {
               )}
               {routes["/work"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="grid"
-                    href="/work"
-                    label={work.label}
-                    selected={pathname.startsWith("/work")}
-                  />
+                  
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="grid"
@@ -111,13 +105,7 @@ export const Header = () => {
               )}
               {routes["/blog"] && (
                 <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="book"
-                    href="/blog"
-                    label={blog.label}
-                    selected={pathname.startsWith("/blog")}
-                  />
+                  
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="book"
@@ -128,13 +116,13 @@ export const Header = () => {
               )}
               {routes["/gallery"] && (
                 <>
-                  <ToggleButton
+                  {/* <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="gallery"
                     href="/gallery"
                     label={gallery.label}
                     selected={pathname.startsWith("/gallery")}
-                  />
+                  /> */}
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="gallery"
