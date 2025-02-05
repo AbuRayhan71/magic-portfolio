@@ -63,8 +63,6 @@ export default function Work() {
           }),
         }}
       />
-
-      <h1>hello</h1>
       <Projects />
     </Column>
   );
