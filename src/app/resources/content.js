@@ -15,11 +15,10 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Send me a email for exiting oppotunity and collabration</>,
   description: (
     <>
-      I occasionally write about  tech news, and share thoughts on the intersection of
-      creativity and engineering.
+
     </>
   ),
 };
@@ -53,18 +52,19 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Software Engineer and Builder</>,
+  headline: <>Welcome to Rayhan's Portfolio Website</>,
   subline: (
     <>
-      I'm Rayhan, a Software engineer and a master's Student at <InlineCode>UNSW</InlineCode>, Sydney
-      <br /> I love building things and solving problems.
-    </>
+  I'm Rayhan, an AI Engineer and a current Master's student in Data Science at <InlineCode>University of New South Wales</InlineCode> in Sydney.
+  <br /> I love working with data and software to create innovative solutions.
+</>
+
   ),
 };
 
 const about = {
-  label: "About",
-  title: "About me",
+  label: "Resume",
+  title: "Resume",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -92,9 +92,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Headstarter",
+        timeframe: "Dec,2024  - Present",
+        role: "Software Engineer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -138,12 +138,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of New South Wales",
+        description: <>Masters of Data Science</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Swinburne University of Technology",
+        description: <> Bachelors of Computer Science</>,
       },
     ],
   },
