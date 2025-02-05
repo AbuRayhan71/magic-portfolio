@@ -75,7 +75,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/rayhan7",
   },
   intro: {
     display: true,
@@ -116,9 +116,9 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "ECAL",
+        timeframe: "Dec 2023 - Feb 2024",
+        role: "Software Engineer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
