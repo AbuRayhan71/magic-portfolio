@@ -97,12 +97,18 @@ const about = {
         role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Built 14+ machine learning, ai-engineering and full-stack projects in fast-paced software team environments
+           
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Implemented llm-chaning, hyperparameter tuning, fine tuning on 10+ LLM models controlling for latency & accuracy.,
+          <> Coached by Google Machine Learning, Google Kubernetes, Two Sigma, Tesla, Figma and Citadel Engineers</>
+          
+          <> Developed 5+ neural networks in Python, 11 apps in Typescript on AWS/Vercel with dev and production environments</>
+          
+
+         
+            Created 321+ commits on github with 7-day deadlines, getting a Career Capital increase of 40% from start date
           </>,
         ],
         images: [
@@ -121,8 +127,16 @@ const about = {
         role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+             Contributed to the development of AI-driven tools like Smart Events by leveraging Azure AI and OpenAI, streamlining
+              workflow automation. Achieved a 25% reduction in development cycles by automating repetitive tasks such as data
+              validation and content generation for fixtures.
+             Designed and implemented a Golang-based API integrated with Azure AI-Language Translate, enabling real-time
+              multi-language support for event fixtures, which boosted global user engagement by making content accessible in over
+              10 languages.
+           <></>   
+            
+            Collaborated with a team of 8 engineers, participating in Agile ceremonies to align on project milestones and
+              deliverables.
           </>,
           <>
             Led a cross-functional team to launch a new product line, contributing to a 15% increase
@@ -135,7 +149,7 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
         name: "University of New South Wales",
@@ -149,39 +163,21 @@ const about = {
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Projects",
     skills: [
       {
         title: "Figma",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        
       },
     ],
   },
