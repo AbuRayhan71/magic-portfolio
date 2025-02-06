@@ -63,7 +63,7 @@ const home = {
 };
 
 const about = {
-  label: "Resume",
+  label: "",
   title: "Go to My Resume",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
@@ -205,4 +205,4 @@ const work = {
 
 
 
-export { person, social, newsletter, home, about };
+export { person, social, newsletter, about };

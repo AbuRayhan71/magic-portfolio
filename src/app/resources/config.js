@@ -2,7 +2,7 @@ const baseURL = "demo.magic-portfolio.com";
 
 const routes = {
   "/": true,
-  "/about": true,
+  
   "/work": true,
   "/blog": true,
   "/gallery": true,
@@ -15,10 +15,10 @@ const protectedRoutes = {
 };
 
 const style = {
-  theme: "dark", // dark | light
-  neutral: "gray", // sand | gray | slate
+  theme: "light", // dark | light
+  neutral: "slate", // sand | gray | slate
   brand: "emerald", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-  accent: "orange", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
   border: "playful", // rounded | playful | conservative
