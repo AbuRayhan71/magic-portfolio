@@ -48,19 +48,7 @@ const social = [
   },
 ];
 
-const home = {
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Welcome to Rayhan's Portfolio Website</>,
-  subline: (
-    <>
-  I'm Rayhan, an AI Engineer and a current Master's student in Data Science at <InlineCode>University of New South Wales</InlineCode> in Sydney.
-  <br /> I love working with data and software to create innovative solutions.
-</>
 
-  ),
-};
 
 const about = {
   label: "",
@@ -113,12 +101,7 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+         
         ],
       },
       {
@@ -192,13 +175,6 @@ const about = {
 
 
 
-const work = {
-  label: "Work",
-  title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
-};
 
 
 
