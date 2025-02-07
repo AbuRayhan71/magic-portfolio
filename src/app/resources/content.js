@@ -130,6 +130,7 @@ const about = {
              Contributed to the development of AI-driven tools like Smart Events by leveraging Azure AI and OpenAI, streamlining
               workflow automation. Achieved a 25% reduction in development cycles by automating repetitive tasks such as data
               validation and content generation for fixtures.
+              <br></br>
              Designed and implemented a Golang-based API integrated with Azure AI-Language Translate, enabling real-time
               multi-language support for event fixtures, which boosted global user engagement by making content accessible in over
               10 languages.
@@ -166,16 +167,22 @@ const about = {
     title: "Projects",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "AI Anwer Engine",
+        description: <>
+        <br></br>• Developed Gobeshona.io an AI answer engine using Next.js, TypeScript, and Puppeteer.
+        <br></br>• Enabled users to get context-rich answers with cited sources from URLs.
+        <br></br>• Used Cheerio, Redis caching, and Tailwind CSS, deployed on Vercel.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "CustomTranslator",
+        description: <>
+        <br></br>• Developed an API using Golang and Azure AI to translate event fixture details into 21+ languages, including for clients like the
+        English Premier League, driving global audience engagement.
+        <br></br>• Integrated the solution seamlessly within ECAL’s event management platform as part of a newly formed AI team.</>,
         // optional: leave the array empty if you don't want to display images
         
       },
